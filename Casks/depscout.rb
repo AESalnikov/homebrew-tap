@@ -4,21 +4,21 @@ cask "depscout" do
 
   on_macos do
     on_arm do
-      sha256 "6974af1e74a291af6ffadf01fbfc4f4353aac059d485bdd2966418d7dd764706"
+      sha256 "89066a34e5b62078023cbf27c695821efe741ac11f49b26110b68cfffcafdb9d"
       url "https://github.com/AESalnikov/depscout/releases/download/v#{version}/depscout_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7551f6ae6287065d204020d1383beda819a066c880a4356941302b48521e6446"
+      sha256 "4bf4321950c6e767a415b9a4d00134ddbb4780bae36cdb2da1e591ea20c5843d"
       url "https://github.com/AESalnikov/depscout/releases/download/v#{version}/depscout_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a95a3ffebe74edf9d044bf5a4698aea4e612bbecf0b7eae7eb31ff3f9d161bd0"
+      sha256 "414eb3f6b7f51ecff5bcc0b942eb7bf75d5f62f16e3953b2a61606c86804addb"
       url "https://github.com/AESalnikov/depscout/releases/download/v#{version}/depscout_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f11282a17aa00ae13b6e2ad5c520694bfa68306ffb4b34fdbf1a98a0c5db4701"
+      sha256 "06869b9e59652a44cc6701e6fb953430d4b72a7574b0e24ce2f72fc2f52d6e5e"
       url "https://github.com/AESalnikov/depscout/releases/download/v#{version}/depscout_#{version}_linux_amd64.tar.gz"
     end
   end
